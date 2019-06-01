@@ -8,7 +8,7 @@ const setup = (initialState = {}) => {
   const wrapper = shallow(<App store={store} />)
     .dive()
     .dive();
-  console.log(wrapper.debug());
+  //   console.log(wrapper.debug());
   return wrapper;
 };
 
